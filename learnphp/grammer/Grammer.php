@@ -73,6 +73,11 @@ $i_son = new Son();
 $i_sister = new Sister();
 sayIt($i_sister);
 
+// 测试反射
+$oReflectionClass = new ReflectionClass('Son'); 
+print_r($oReflectionClass);
+
+echo time();
 
 
 
